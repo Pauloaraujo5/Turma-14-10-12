@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style02.css">
     <link rel="stylesheet" href="css/style03.css">
     <link rel="stylesheet" href="css/style04.css">
+    <link rel="stylesheet" href="css/style05.css">
 
 
 
@@ -28,6 +29,7 @@
                     <li class="item-menu" onclick="onStyle(1)" >Folha de Estilo 2</li>
                     <li class="item-menu" onclick="onStyle(2)" >Folha de Estilo 3</li>
                     <li class="item-menu" onclick="onStyle(3)" >Folha de Estilo 4</li>
+                    <li class="item-menu" onclick="onStyle(4)" >Folha de Estilo 5</li>
                     <li class="item-menu" onclick="noStyle()" >Sem Folha de Estilo</li>
                 </ul>
             </div>
@@ -43,6 +45,7 @@
                     <a onclick="onStyle(1)"href="#"> Stylesheet2</a> 
                     <a onclick="onStyle(2)"href="#"> Stylesheet3</a>
                     <a onclick="onStyle(3)"href="#"> Stylesheet4</a>
+                    <a onclick="onStyle(4)"href="#"> Stylesheet5</a>
                 </p>
                 <h2>Sem stilo</h2>
                 <p>
@@ -81,6 +84,7 @@
             document.styleSheets[1].disabled = true;
             document.styleSheets[2].disabled = true;
             document.styleSheets[3].disabled = true;
+            document.styleSheets[4].disabled = true;
         }
 
         function onStyle(n) {
